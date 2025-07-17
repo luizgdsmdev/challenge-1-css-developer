@@ -1,0 +1,42 @@
+#professional-challenges{
+    background-color: rgb(0 0 0 / 1.1);
+    padding: 4.75rem 0;
+        text-align: center;
+    text-align: -webkit-center;
+}
+
+#professional-challenges h2{
+    font-size: 3rem;
+    max-width: 57rem;
+    background: -webkit-linear-gradient(278deg, #33A8DB 22%, #1472B7 67%);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+#professional-challenges img{
+    text-align: center;
+    text-align: -webkit-center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    filter: drop-shadow(0rem 0.1rem 2rem rgb(29, 55, 44, 0.9));
+    width: 100%;
+    max-width: 659px;
+}
+
+#professional-challenges p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 1rem;
+    max-width: 51.7rem;
+    line-height: 1.6rem;
+}
+
+#professional-challenges a{
+    color: #ffffff;
+}

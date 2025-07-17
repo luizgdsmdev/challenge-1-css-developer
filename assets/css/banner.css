@@ -1,0 +1,89 @@
+.banner{
+    display: block;
+    width: 100%;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-color: currentcolor;
+}
+
+.banner-content{
+    text-align: -webkit-center;
+    padding: 5rem;
+    padding-bottom: 6rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 6%, rgb(16 15 186 / 36%) 57%, rgb(0 0 0 / 9) 102%)
+
+}
+
+.logo{
+    background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.16));
+    border-radius: 50%;
+    padding: 2.6rem;
+    padding-bottom: 0.5rem;
+    width: fit-content;
+    box-shadow: 0px 0px 1.6rem 1.2rem rgba(0, 0, 0, 0.16);
+}
+
+.logo img{
+    -webkit-filter: drop-shadow(0rem 0rem 0.9rem #1174b7d6);
+    filter: drop-shadow(0rem 0rem 0.9rem #1174b7d6);
+    animation: glowImage 3.3s ease-in-out infinite alternate;
+}
+
+@keyframes glowImage {
+  from {
+    filter: drop-shadow(0rem 0rem 0.1rem #1174b7d6);
+  }
+  to {
+    filter: drop-shadow(0rem 0rem 2.2rem #1174b7d6);
+  }
+}
+
+
+.banner-content h1{
+    margin: 1rem 0;
+    font-size: 3rem;
+    background: -webkit-linear-gradient(171deg, #33A8DB 22%, #1472B7 67%);
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.banner-content p{
+    font-size: 1.26rem;
+    color: #ffffff;
+    max-width: 44rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.banner-content a{
+    color: #ffffff;
+}
+
+.banner-content button{
+    padding: 1.25rem 2rem;
+    margin-top: 2.6rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+    background: -webkit-linear-gradient(rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(0deg,  rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    transition: all 0.4s ease-in-out;
+}
+
+.banner-content button:hover {
+    border-image-source: linear-gradient(180deg,  rgba(9, 126, 210, 0.9), rgb(74, 78, 208));
+    background: -webkit-linear-gradient(rgba(24, 104, 161, 0.3), rgba(118, 75, 191, 0.1));
+    -webkit-text-fill-color:#ffffff;
+    cursor: pointer;
+}
+
+
+
