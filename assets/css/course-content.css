@@ -16,6 +16,8 @@
     text-transform: uppercase;
     text-align: -webkit-center;
     text-align: center;
+    animation: ShowTextFromRight 2.6s ease-in-out;
+    visibility: collapse;
 }
 
 #course-content p{
@@ -25,12 +27,16 @@
     text-align: -webkit-center;
     text-align: center;
     line-height: 1.5rem;
+    animation: ShowTextFromRight 2.9s ease-in-out;
+    visibility: collapse;
 }
 
 .modules-list {
     text-align: -webkit-center;
     color: #ffffff;
     margin-top: 1.6rem;
+    animation: ShowTextFromRight 3.3s ease-in-out;
+    visibility: collapse;
 }
 
 .module{

@@ -3,3 +3,145 @@
     padding: 0px;
     font-family: Raleway;
 }
+
+
+.ShowTextFromLeft{
+    visibility: visible!important;
+    animation: ShowTextFromLeft 1s ease-in-out;
+}
+
+.ShowTextFromRigh{
+    visibility: visible!important;
+    animation: ShowTextFromRight 1s ease-in-out;
+}
+
+.ShowImageFromLeft{
+    visibility: visible!important;
+    animation: ShowImageFromLeft 1s ease-in-out;
+}
+
+.ShowImageFromRigh{
+    visibility: visible!important;
+    animation: ShowImageFromright 1s ease-in-out;
+}
+
+.ShowTextFromBottom{
+    visibility: visible!important;
+    animation: ShowTextFromBottom 1s ease-in-out;
+}
+
+.ShowImageFromBottom{
+    visibility: visible!important;
+    animation: ShowTextFromBottom 1s ease-in-out;
+}
+
+
+
+@keyframes ShowButtomsTop {
+    0%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes ShowTextFromTop {
+    0%{
+        opacity: 0;
+        transform:translateY(-150px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes ShowTextFromBottom {
+    0%{
+        opacity: 0;
+        transform:translateY(150px);
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes ShowTextFromLeft{
+    0%{
+        opacity: 0;
+        transform:translateX(150px);
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes ShowTextFromRight{
+    0%{
+        opacity: 0;
+        transform:translateX(-150px);
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes ShowImageFromLeft{
+    0%{
+        opacity: 0;
+        transform:translateX(150px);
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes ShowImageFromright{
+    0%{
+        opacity: 0;
+        transform:translateX(-150px);
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes floatingRight {
+     0% {
+       transform: translateY(0);
+       filter: drop-shadow(17px 9px 1.2rem #5533f2);
+     }
+     50% {
+       transform: translateY(-2px);
+       filter: drop-shadow(17px 9px 1.5rem #5533f2);
+     }
+     100% {
+       transform: translateY(0);
+       filter: drop-shadow(17px 9px 1.2rem #5533f2);
+     }
+}

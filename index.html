@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./assets/css/professional-challenges.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>CSS challenge</title>
 </head>
@@ -20,7 +21,7 @@
 
   <header class="banner">
     <div class="banner-content">
-      <div class="logo">
+      <div id="logo" class="logo">
         <img src="assets/images/logo.png" title="DIO CSS Track Logo" alt="DIO CSS Track Logo">
       </div>
       <h1>DIO CSS Track</h1>
@@ -32,12 +33,12 @@
 
   <main>
      <section id="course-content">
-      <h2>What was the content?</h2>
-      <p>
+      <h2 id="course-content-h2">What was the content?</h2>
+      <p id="course-content-p">
         We have three modules packed with content from basic to advanced so you can learn how to develop <br class="course-content-br">professional websites using only HTML and CSS: without any additional libraries or frameworks.
       </p>
 
-      <div class="modules-list">
+      <div id="course-content-modules-list" class="modules-list">
         <div class="module">
           <span>Module 01:</span> getting started with CSS
         </div>
@@ -58,17 +59,15 @@
     </section>
 
     <section id="professional-challenges">
-      <h2>Evolving and facing new professional challenges</h2>
-      <img src="assets/images/professional-challenges.png" title="Man reading testimonials on a tablet" alt="Man reading testimonials on a tablet">
-      <p>
+      <h2 id="professional-challenges-h2">Evolving and facing new professional challenges</h2>
+      <img id="professional-challenges-img" src="assets/images/professional-challenges.png" title="Man reading testimonials on a tablet" alt="Man reading testimonials on a tablet">
+      <p id="professional-challenges-p">
         There are many other models and challenges already created by this and other courses. <br class="course-content-br"><a href="https://github.com/luizgdsmdev" target="_blank" title="Luiz Messias Github">Visit my Github</a> to access more content like this and stay updated on my professional development.
       </p>
     </section>
   
   </main>
-  <!-- <footer>
-    <img class="dio-logo" src="assets/images/dio-logo.png" title="Logotipo DIO com o texto make the change" alt="Logotipo DIO com o texto make the change">
-    <p>Acesse <a href="https://dio.me">dio.me</a> e se cadastre agora</p>
-  </footer> -->
+  
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
