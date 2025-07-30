@@ -1,7 +1,11 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     font-family: Raleway;
+    animation: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body{
